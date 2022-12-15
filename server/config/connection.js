@@ -7,4 +7,4 @@ mongoose.connect(
       useNewUrlParser: true,
       useUnifiedTopology: true,
     },
-);
+).catch(e => console.log(e));
