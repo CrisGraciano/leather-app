@@ -1,6 +1,7 @@
 # Leather E-commerce Web App
 
 ## Description
+Leather goods store website
 
 ## Technologies Used
 
