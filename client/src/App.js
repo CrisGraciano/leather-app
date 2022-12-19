@@ -21,6 +21,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <Route
+                path="/login"
+                element={<Login />}
+              />
+              <Route
+                path="/signup"
+                element={<Signup />}
+              />
     </div>
   );
 }
