@@ -108,4 +108,4 @@ db.once('open', async () => {
     console.log('Users have been seeded!');
 
     process.exit();
-})
+});

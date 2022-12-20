@@ -8,3 +8,5 @@ mongoose.connect(
       useUnifiedTopology: true,
     },
 ).catch(e => console.log(e));
+
+module.exports = mongoose.connection;
