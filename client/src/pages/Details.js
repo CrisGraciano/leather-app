@@ -3,13 +3,14 @@ import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
 import { QUERY_PRODUCTS } from '../utils/queries';
+import spinner from '../assets/spinner.gif';
 
 function Detail() {
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});
 
-  const { data } = useQuery(QUERY_PRODUCTS);
+  const { loading, data } = useQuery(QUERY_PRODUCTS);
 
   const products = data?.products || [];
 
@@ -41,6 +42,7 @@ function Detail() {
           />
         </div>
       ) : null}
+      {loading ? <img src={spinner} alt="loading" /> : null}
     </>
   );
 }
