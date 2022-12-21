@@ -65,14 +65,6 @@ db.once('open', async () => {
             price: 29.99
         },
         {
-            name: 'Basic Wallet',
-            description:
-                'Our best seller! A simple cardholder wallet that is slim and compact yet very versitile. Holds up to 6 cards very comfortably.',
-            image: '',
-            category: categories[3]._id,
-            price: 39.99
-        },
-        {
             name: 'Custom Watch Straps',
             description:
                 'Tired of your boring old watch straps? We make made to order watch straps for nearly any watch! Add this to your cart and checkout. Then with the sam email used for your account, shoot us a message on the contact page with your idea! A team member will reach back out to straighten out the details with you!',
@@ -102,7 +94,7 @@ db.once('open', async () => {
         firstName: 'Elijah',
         lastName: 'Holt',
         email: 'eholt@testmail.com',
-        password: 'password12345'
+        password: 'password2468'
     });
 
     console.log('Users have been seeded!');
