@@ -53,7 +53,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          The Leather Store
+          Graciano and Co. Leather
           &#128004;
         </Link>
       </h1>
