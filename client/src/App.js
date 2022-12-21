@@ -47,14 +47,14 @@ function App() {
           <StoreProvider>
             <Nav />
             <Routes>
-              {/* <Route
+              <Route
               path="/"
               element={<Home />}
-              /> */}
-              {/* <Route
+              />
+              <Route
                 path="/Contact"
                 element={<Contact />}
-              /> */}
+              />
               <Route 
                 path="/login" 
                 element={<Login />} 
