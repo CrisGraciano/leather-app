@@ -1,7 +1,11 @@
 header {
-  background-color: #8d6e63;
+  background-color: #404040;
   padding-bottom: 8%;
-  font: tan;
+  color: #8d6e63;
+}
+
+a {
+  color: #8d6e63;
 }
 .mx-1 {
   margin: 0%;
@@ -20,12 +24,15 @@ header {
   position: absolute;
   right: 15px;  
   display: flex;
+  color: #8d6e63;
 }
 
 .flex-row h1 {
   margin: 0%;
   position: relative;
   text-align: center;
+  top: 50px;
+  font-size: 50px;
 }
 body {
   margin: 0;
