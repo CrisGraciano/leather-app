@@ -39,9 +39,9 @@ function Nav() {
               Login
             </Link>
           </li>
-          <li className="mx-1">
+          <li className="mx-2">
             <Link to="/shopping-cart">
-              Shopping Cart
+            🛒
             </Link>
           </li>
         </ul>
@@ -54,6 +54,7 @@ function Nav() {
       <h1>
         <Link to="/">
           The Leather Store
+          &#128004;
         </Link>
       </h1>
 
